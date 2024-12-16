@@ -49,3 +49,35 @@ Rafael,6,199,Intermediário,Toyota,Toyota Corolla,Sim,100,415,1709
 João,22,207,Intermediário,Honda,Honda Civic,Sim,100,219,4873
 Tiago,18,228,Intermediário,Toyota,Toyota Corolla,Sim,100,386,4590
 Fernanda,21,334,SUV,Jeep,Jeep Compass,Não,0,600,7614
+,,,,,,,,,
+,,,,,,,,,
+id_cliente,nome,,id_veiculo,id_categoria,fabricante,modelo,,,
+1,Fernanda,,1,1,Jeep,Jeep Compass,,,
+2,Beatriz,,2,1,Toyota,Toyota RAV4,,,
+3,João,,3,2,Fiat,Fiat Mobi,,,
+4,Pedro,,4,3,Chevrolet,Chevrolet Cruze,,,
+5,Ana,,5,1,Ford,Ford Edge,,,
+6,Maria,,6,2,Hyundai,Hyundai HB20,,,
+7,Rafael,,7,3,Toyota,Toyota Corolla,,,
+8,Carlos,,8,2,Chevrolet,Chevrolet Onix,,,
+9,Luciana,,9,3,Honda,Honda Civic,,,
+10,Tiago,,10,2,Fiat,Fiat Mobi,,,
+,,,,,,,,,
+,,,,,,,,,
+id_categoria,nome_categoria,,,,,,,,
+1,SUV,,,,,,,,
+2,Econômico,,,,,,,,
+3,Intermediário,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+id_aluguel,id_cliente,id_veiculo,dias_alugados,valor_diaria,seguro,valor_seguro,custo_manutencao,custo_total,data_aluguel
+1,1,1,30,285,Não,0,977,9527,2023-05-15
+2,2,2,20,362,Não,0,628,7868,2023-06-10
+3,3,3,11,224,Sim,50,387,2851,2023-08-20
+4,4,4,28,364,Sim,200,673,11065,2023-07-25
+5,5,5,24,112,Não,0,57,2745,2023-09-01
+6,6,6,21,100,Não,0,101,2201,2023-06-11
+7,7,7,7,382,Não,0,981,3655,2023-10-05
+8,8,8,13,95,Sim,200,859,2124,2022-11-12
+9,9,9,16,93,Não,0,78,1566,2022-09-20
+10,10,10,15,355,Sim,200,551,8716,2023-08-15
