@@ -1,0 +1,2 @@
+ALTER TABLE Oficinas
+ADD COLUMN telefone VARCHAR(20);

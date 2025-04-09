@@ -1,9 +1,11 @@
 SELECT 
-    C1.nome AS cliente_1,
-    C2.nome AS cliente_2
+    c.nome AS cliente,
+    v.modelo AS veiculo,
+    a.data_aluguel,
+    a.data_devolucao
 FROM 
-    Clientes C1
-JOIN 
-    Clientes C2 
-    ON LEFT(C1.nome, 1) = LEFT(C2.nome, 1)
-    AND C1.id_cliente < C2.id_cliente;
+    Alugueis a
+INNER JOIN Clientes c ON a.cliente_id = c.id
+INNER JOIN Veiculos v ON a.veiculo_id = v.id
+WHERE 
+    a.data_aluguel BETWEEN '2023-01-01' AND '2023-12-31';

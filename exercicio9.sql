@@ -1,4 +1,17 @@
-SELECT V.modelo, COUNT(M.id_manutencao) AS total_manutencoes
-FROM Veiculos V
-LEFT JOIN Manutencoes M ON V.id_veiculo = M.id_veiculo
-GROUP BY V.modelo;
+START TRANSACTION;
+DELETE FROM Clientes
+WHERE cpf LIKE '00000000%'
+LIMIT 100;
+COMMIT;
+
+START TRANSACTION;
+DELETE FROM Clientes
+WHERE cpf LIKE '00000000%'
+LIMIT 100;
+COMMIT;
+
+START TRANSACTION;
+DELETE FROM Clientes
+WHERE cpf LIKE '00000000%'
+LIMIT 100;
+COMMIT;
